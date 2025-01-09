@@ -15,7 +15,7 @@
         @include('navbar')
 
         <!-- Hero -->
-        <div class="h-screen bg-cover bg-center flex items-center md:pl-32" style="background-image: url('{{ asset('assets/hero.png') }}');">
+        <div class="h-screen bg-cover bg-center flex items-center px-8 md:pl-32" style="background-image: url('{{ asset('assets/hero.png') }}');">
             <div class="flex flex-col w-[540px] items-center mx-auto md:mx-0 md:items-start gap-10">
                 <h1 class="text-2xl md:text-4xl font-extrabold text-center md:text-start text-white leading-snug">Cybersecurity Made Simple with Sangfor Cyber Command</h1>
                 <p class="text-white font-medium text-center md:text-start text-xl">Simplify your cybersecurity with Sangfor Cyber Command's user-friendly interface and comprehensive threat protection.</p>
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Form -->
-        <div class="flex flex-col lg:flex-row px-16 lg:px-36 xl:px-52 py-24 gap-14 bg-cover bg-center items-center" style="background-image: url('{{ asset('assets/bg-confirmation.png') }}');">
+        <div class="flex flex-col lg:flex-row px-8 md:px-16 lg:px-36 xl:px-52 py-24 gap-14 bg-cover bg-center items-center" style="background-image: url('{{ asset('assets/bg-confirmation.png') }}');">
             <div class="flex flex-col gap-6 flex-1">
                 <h1 class="font-bold text-[#293660] text-4xl">About Sangfor Cyber Command</h1>
                 <div class="flex flex-col gap-4">
@@ -112,8 +112,8 @@
             </form>
         </div>
 
-        <div class="w-full bg-cover bg-center py-20 px-10 flex flex-col gap-8 items-center" style="background-image: url('{{ asset('assets/bg1.png') }}');">
-            <h1 class="font-bold text-2xl text-white">Sangfor Cyber Command Advantages</h1>
+        <div class="w-full bg-cover bg-center py-20 px-8 md:px-10 flex flex-col gap-8 items-center" style="background-image: url('{{ asset('assets/bg1.png') }}');">
+            <h1 class="font-bold text-2xl text-white text-center">Sangfor Cyber Command Advantages</h1>
             <div class="flex flex-wrap justify-center gap-x-6 gap-y-9">
                 <div class="basis-[400px] p-8 bg-white flex flex-col gap-5 items-center">
                     <img class="h-[100px]" src="{{ asset('assets/img-threat.png') }}" alt="">
@@ -138,8 +138,8 @@
             </div>
         </div>
 
-        <div class="w-full flex flex-col gap-8 items-center py-20">
-            <h1 class="text-2xl font-bold text-[#293660]">Sangfor Cyber Command Features</h1>
+        <div class="w-full flex flex-col gap-8 items-center px-8 py-20">
+            <h1 class="text-2xl font-bold text-[#293660] text-center">Sangfor Cyber Command Features</h1>
             <div class="flex flex-wrap gap-12 justify-center px-20">
                 <div class="basis-[250px] flex flex-col items-center gap-3">
                     <img src="{{ asset('assets/img-threatint.png') }}" alt="">
@@ -199,7 +199,7 @@
 
         <div class="flex flex-col items-center py-20 relative bg-[#eeeded]">
             <div class="bg-[#293660] absolute -top-4 py-2 px-4">
-                <h1 class="text-white font-bold text-xl  md:text-2xl lg:text-3xl">Cyber Command Customers Reference</h1>
+                <h1 class="text-white font-bold text-xl  md:text-2xl lg:text-3xl text-center">Cyber Command Customers Reference</h1>
             </div>
 
             <div class="flex flex-wrap justify-center gap-12 w-full px-5 md:px-20">
@@ -210,8 +210,8 @@
             </div>
         </div>
 
-        <div class="flex-col flex items-center py-14">
-            <h1 class="font-bold text-[#293660] text-xl md:text-3xl">Explore Sangfor Cyber Command with Helios</h1>
+        <div class="flex-col flex items-center py-14 px-8">
+            <h1 class="font-bold text-[#293660] text-xl md:text-3xl text-center">Explore Sangfor Cyber Command with Helios</h1>
             <p class="md:text-lg text-[#6C646A]">Helios Informatika Nusantara as Sangfor Distributor will provide</p>
             <div class="flex flex-col md:flex-row gap-7 mt-10 px-10">
                 <div class="flex flex-col items-center gap-4 bg-white p-10 shadow-lg flex-1 basis-1">
